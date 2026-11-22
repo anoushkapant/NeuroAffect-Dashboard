@@ -1,0 +1,70 @@
+# Compiled python
+*.pyc
+*.pyd
+
+# Compiled MATLAB
+*.mex*
+
+# IPython notebook checkpoints
+.ipynb_checkpoints
+
+# Editor temporaries
+*.swn
+*.swo
+*.swp
+*~
+
+# Sublime Text settings
+*.sublime-workspace
+*.sublime-project
+
+# Eclipse Project settings
+*.*project
+.settings
+
+# QtCreator files
+*.user
+
+# PyCharm files
+.idea
+
+# Visual Studio Code files
+.vscode
+.vs
+
+# OSX dir files
+.DS_Store
+
+# Outputs
+*/__pycache__
+.pytest_cache/
+build/
+dist/
+.cache/
+.eggs/
+lightning_logs/
+*.egg-info/
+.coverage
+.coverage.*
+coverage.xml
+*.out
+*.pt
+docs/source/generated
+docs/source/auto_examples/
+
+# Local experimental folders
+tmp_in/
+tmp_out/
+dev/
+.torcheeg/
+lightning_logs/
+# Coverage reports
+htmlcov/
+coverage.json
+
+# Local environment and evaluation outputs
+.venv/
+loso_cache/
+loso_results.csv
+datasets/
+model_selection/

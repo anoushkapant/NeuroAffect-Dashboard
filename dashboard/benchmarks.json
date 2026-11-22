@@ -1,0 +1,99 @@
+{
+  "device": "CPU",
+  "batch_size": 16,
+  "models": [
+    {
+      "model": "EEGNet",
+      "params": 1744,
+      "gflops": 0.0697,
+      "ms_per_batch": 4.649,
+      "input_shape": [
+        16,
+        1,
+        32,
+        128
+      ]
+    },
+    {
+      "model": "DeepConvNet",
+      "params": 154127,
+      "gflops": 0.1525,
+      "ms_per_batch": 11.768,
+      "input_shape": [
+        16,
+        1,
+        32,
+        128
+      ]
+    },
+    {
+      "model": "Conformer",
+      "params": 201346,
+      "gflops": 0.2853,
+      "ms_per_batch": 2.795,
+      "input_shape": [
+        16,
+        1,
+        32,
+        128
+      ]
+    },
+    {
+      "model": "EEGNet-Attention-DANN",
+      "params": 4084,
+      "gflops": 0.0699,
+      "ms_per_batch": 4.738,
+      "input_shape": [
+        16,
+        1,
+        32,
+        128
+      ]
+    },
+    {
+      "model": "GRU",
+      "params": 43906,
+      "gflops": 0.1766,
+      "ms_per_batch": 5.371,
+      "input_shape": [
+        16,
+        32,
+        128
+      ]
+    },
+    {
+      "model": "LSTM",
+      "params": 58498,
+      "gflops": 0.2358,
+      "ms_per_batch": 6.873,
+      "input_shape": [
+        16,
+        32,
+        128
+      ]
+    },
+    {
+      "model": "Vanilla Transformer",
+      "params": 30594,
+      "gflops": 0.2115,
+      "ms_per_batch": 7.933,
+      "input_shape": [
+        16,
+        32,
+        128
+      ]
+    },
+    {
+      "model": "CCNN",
+      "params": 6233602,
+      "gflops": 2.5587,
+      "ms_per_batch": 25.192,
+      "input_shape": [
+        16,
+        4,
+        9,
+        9
+      ]
+    }
+  ]
+}
